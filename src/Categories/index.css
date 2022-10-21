@@ -1,0 +1,88 @@
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: flex-start ;
+    margin: 30px;
+}
+
+.button-categories {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.choiceCategoryContainer {
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.choiceCategory {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.categories {
+    display: flex;
+    /*flex-direction: column;*/
+    gap: 10px;
+    margin: 10px;
+}
+
+.categoryAttributesContainer {
+    width: 500px;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.categoryAttribute {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.categoryAttributeText{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.moreCategoryAttributeContainer {
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.addCategoryAttributes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid 1px lightgrey;
+}
+
+.newCategoryAttribute {
+    margin: 20px;
+}
+
+.newCategory {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin: 10px;
+}

@@ -1,0 +1,26 @@
+
+.units {
+    display: flex;
+    border: solid 1px #282c34;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.unit-table {
+    margin-top: 30px;
+    border: solid 1px #282c34;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.unit-table td {
+    border: solid 1px #282c34;
+    text-align: center;
+}
+
+.unit-table td.button-add {
+    border: none;
+    text-align: center;
+}
